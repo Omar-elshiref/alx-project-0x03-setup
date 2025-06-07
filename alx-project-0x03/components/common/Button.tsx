@@ -14,7 +14,7 @@ const Button: React.FC<ButtonProps> = ({ buttonLabel, buttonSize, buttonBackgrou
 
 
   return (
-    <button onClick={action} className={`${backgroundColorClass} ${buttonSize} px-6 py-2 text-sm font-semibold rounded-lg hover:${backgroundColorClass}/50 transition duration-300 text-white`}>
+    <button onClick={action} className={`${backgroundColorClass} ${buttonSize} px-6 py-2 text-sm cursor-pointer font-semibold rounded-lg hover:${backgroundColorClass}/50 transition duration-300 text-white`}>
       {buttonLabel}
     </button>
   )
